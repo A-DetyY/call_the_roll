@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp"
+    android:background="#FFF"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:id="@+id/id_tab_callup"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/id_tab_callup_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@drawable/menu"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点名"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_signup"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/id_tab_signup_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@drawable/hand"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="签到"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/id_tab_mine"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/id_tab_mine_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:clickable="false"
+            android:src="@drawable/mine"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我"
+            android:textColor="#000"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
