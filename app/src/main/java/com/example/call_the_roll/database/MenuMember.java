@@ -12,6 +12,10 @@ public class MenuMember extends DataSupport {
 
     private String memberID;
 
+    private int lateNum;
+
+    private String belong;
+
     public String getMemberName(){
         return memberName;
     }
@@ -26,6 +30,22 @@ public class MenuMember extends DataSupport {
 
     public void setMemberID(String memberID){
         this.memberID = memberID;
+    }
+
+    public int getLateNum(){
+        return lateNum;
+    }
+
+    public void setLateNum(int lateNum){
+        this.lateNum = lateNum;
+    }
+
+    public String getBelong(){
+        return belong;
+    }
+
+    public void setBelong(String belong){
+        this.belong = belong;
     }
 
 }

@@ -1,12 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <litepal>
 
-    <dbname value="call_the_roll" />
+    <dbname value="Call_the_roll" />
 
     <version value="1" />
 
     <list>
         <mapping class="com.example.call_the_roll.database.Menu" />
         <mapping class="com.example.call_the_roll.database.Course" />
+        <mapping class="com.example.call_the_roll.database.MenuMember" />
     </list>
 
 </litepal>

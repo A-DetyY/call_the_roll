@@ -1,7 +1,10 @@
 package com.example.call_the_roll.database;
 
+import android.os.Parcelable;
+
 import org.litepal.crud.DataSupport;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,7 +16,7 @@ public class Menu extends DataSupport {
 
     private String menuName;
 
-    private List<MenuMember> memberList = new ArrayList<MenuMember>();
+    //private List<MenuMember> memberList = new ArrayList<MenuMember>();
 
     public String getMenuName(){
         return menuName;
@@ -23,12 +26,12 @@ public class Menu extends DataSupport {
         this.menuName = menuName;
     }
 
-    public List<MenuMember> getMemberList(){
-        return memberList;
-    }
+   // public List<MenuMember> getMemberList(){
+        //return memberList;
+    //}
 
-    public void setMemberList(List<MenuMember> memberList){
-        this.memberList = memberList;
-    }
+    //public void setMemberList(List<MenuMember> memberList){
+        //this.memberList = memberList;
+   // }
 
 }

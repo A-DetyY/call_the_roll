@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item
+        android:id="@+id/action_File"
+        android:title="文件输入"
+        app:showAsAction="never"
+       />
+    <item
+        android:id="@+id/action_Manually"
+        android:title="手动输入"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_First"
+        android:title="点名建立"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_IP"
+        android:title="获取本机IP"
+        app:showAsAction="never"
+        />
+
+</menu>

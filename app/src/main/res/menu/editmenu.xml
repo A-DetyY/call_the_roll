@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <item
+        android:id="@+id/action_MenuName"
+        android:title="修改名单名"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_Name"
+        android:title="修改姓名"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_ID"
+        android:title="修改ID"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_Late"
+        android:title="修改未签情况"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_Add"
+        android:title="添加名单数据"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_Delete"
+        android:title="删除名单数据"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_DeleteMenu"
+        android:title="删除名单"
+        app:showAsAction="never"
+        />
+
+</menu>
